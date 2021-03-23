@@ -10,13 +10,17 @@ I have a live deployment at https://calculator-alvin.herokuapp.com/. If you want
 
 1. Clone the repo
 2. Make sure you have pipenv installed
-3. Run pipenv install to get all the dependencies
+3. Make sure you have a heroku account
 4. Run pipenv shell
-5. Inside the shell, run "heroku local dev"
+5. Run pipenv install to get all the dependencies
+6. Inside the shell, run "heroku local dev" or flask run (must create your own .env file for flask run)
+7. Head to http://127.0.0.1:5000/
 
 **NOTE: Local version might have some bugs that live deployment version does not. Might be something to do with websockets... did not have the time to investigate fully.
 
-**NOTE2: I excluded the .env file since it contains my private redis heroku key. You can create your own .env, and include the following lines:
+**NOTE2: You can refer to https://devcenter.heroku.com/articles/getting-started-with-python to get started with heroku.
+
+**NOTE3: I excluded the .env file since it contains my private redis heroku key. You can create your own .env, and include the following lines:
 
 ```
 FLASK_ENV=development

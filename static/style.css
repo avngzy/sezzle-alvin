@@ -32,6 +32,7 @@
     margin-left: auto;
     margin-right: auto;
     border: 3px solid black;
+    border-radius: 5px;
     text-overflow: clip;
     background-color: white;
 }
@@ -70,18 +71,6 @@
 }
 
 .button-row {
-    padding: 5px;
-}
-
-.row-2 {
-    padding: 5px;
-}
-
-.row-3 {
-    padding: 5px;
-}
-
-.row-4 {
     padding: 5px;
 }
 

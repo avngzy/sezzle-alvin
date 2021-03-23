@@ -1,0 +1,116 @@
+.calculator-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(74, 74, 131);
+}
+
+.logs {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.individual-log {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.output-box{
+    width: 400px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    text-overflow: clip;
+    background-color: white;
+}
+
+.clear-button {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.previous-operations {
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.entered-numbers {
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    text-align: right;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.button-container{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.button-row {
+    padding: 5px;
+}
+
+.row-2 {
+    padding: 5px;
+}
+
+.row-3 {
+    padding: 5px;
+}
+
+.row-4 {
+    padding: 5px;
+}
+
+button{
+    margin: auto;
+    font-size: 30px;
+    border-radius: 16px;
+    background-color: rgb(255, 136, 25);
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 9px #999;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(255, 179, 108);
+}
+
+
+button:active {
+    outline: none;
+    border: none;
+    background-color: rgb(255, 213, 174);
+    
+}
+
+/* .calculation-logs {
+    padding: 30px;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+} */

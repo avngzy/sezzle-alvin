@@ -1,0 +1,118 @@
+.home-menu{
+  background-color: #99984d;
+}
+
+.pure-menu-heading{
+  color: black;
+  font-size: larger;
+}
+
+.pure-menu-link{
+  color: black;
+}
+
+
+
+.center{
+  align-content: center;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.center-button{
+  font-size: larger;
+  width: auto;
+  text-align: center;
+}
+
+.background{
+  background-color: #313633;
+}
+h1{
+  color:rgb(127, 133, 209);
+}
+.nav-link {
+  color: rgb(77, 145, 172);
+  float: left;
+}
+
+/*MyContacts css*/
+.odd{
+  background-color: white;
+}
+.even{
+  background-color: rgb(165, 168, 177);
+}
+table{
+  width: auto;
+  float: none;
+  border-collapse: collapse;
+  border: 5px solid black;
+  padding: 5px;
+}
+td,th{
+  border: 1px solid black;
+}
+.thumbnail{
+  opacity: 0;
+  float:right;
+  width: 42px;
+  height: 42px;
+}
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.contactpicture{
+  width: 400px;
+  border: 2px;
+  height: 300px;
+  padding: 20px;
+  
+}
+.contact-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  width: fit-content;
+}
+
+/*Form's css*/
+.formtable{
+  width: 10%;
+  border: 2px solid black;
+  border-collapse: separate;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 1em;
+  padding: 20px;
+  background-color: white;
+}
+
+/*My widgets's css*/
+#widget-header{
+  text-align: center;
+}
+.widget-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  border: solid rgb(94, 82, 82) 2px;
+  width: fit-content;
+}
+
+#passwordchecker{
+  background-color: white;
+}
+.twitter{
+  padding: 30px;
+}
+.youtubeplaylist{
+  padding: 30px;
+}
+.instagram{
+  padding: 30px;
+}
+.passwordchecker{
+  padding: 30px;
+}
